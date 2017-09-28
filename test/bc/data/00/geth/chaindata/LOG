@@ -1,0 +1,70 @@
+=============== Sep 22, 2017 (CEST) ===============
+15:54:18.295205 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:54:18.305481 db@open opening
+15:54:18.306159 version@stat F·[] S·0B[] Sc·[]
+15:54:18.309899 db@janitor F·2 G·0
+15:54:18.309990 db@open done T·4.447716ms
+=============== Sep 22, 2017 (CEST) ===============
+15:54:50.199007 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:54:50.199205 version@stat F·[] S·0B[] Sc·[]
+15:54:50.199230 db@open opening
+15:54:50.199314 journal@recovery F·1
+15:54:50.200959 journal@recovery recovering @1
+15:54:50.206126 memdb@flush created L0@2 N·9 S·552B "H\xe9\x91..b\xff:,v3":"r\x00\x00..b\xff:,v5"
+15:54:50.206937 version@stat F·[1] S·552B[552B] Sc·[0.25]
+15:54:50.215261 db@janitor F·3 G·0
+15:54:50.215325 db@open done T·16.068949ms
+15:55:27.916137 db@close closing
+15:55:27.916352 db@close done T·203.339µs
+=============== Sep 22, 2017 (CEST) ===============
+15:56:22.835607 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:56:22.835840 version@stat F·[1] S·552B[552B] Sc·[0.25]
+15:56:22.835876 db@open opening
+15:56:22.835972 journal@recovery F·1
+15:56:22.836835 journal@recovery recovering @3
+15:56:22.843357 memdb@flush created L0@5 N·36 S·1KiB "!\xd6\xfb...er,v19":"sec..I)C,v18"
+15:56:22.844446 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+15:56:22.851623 db@janitor F·4 G·0
+15:56:22.851682 db@open done T·15.764615ms
+15:56:39.861161 db@close closing
+15:56:39.861370 db@close done T·206.068µs
+=============== Sep 22, 2017 (CEST) ===============
+15:56:48.989250 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:56:48.989431 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+15:56:48.989452 db@open opening
+15:56:48.989518 journal@recovery F·1
+15:56:48.990010 journal@recovery recovering @6
+15:56:48.996729 memdb@flush created L0@8 N·2 S·243B "Blo..ion,v48":"Las..der,v49"
+15:56:48.997999 version@stat F·[3] S·2KiB[2KiB] Sc·[0.75]
+15:56:49.004668 db@janitor F·5 G·0
+15:56:49.004729 db@open done T·15.25347ms
+=============== Sep 22, 2017 (CEST) ===============
+15:59:37.661610 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:59:37.661861 version@stat F·[3] S·2KiB[2KiB] Sc·[0.75]
+15:59:37.661889 db@open opening
+15:59:37.661996 journal@recovery F·1
+15:59:37.663247 journal@recovery recovering @9
+15:59:37.671633 memdb@flush created L0@11 N·366 S·16KiB "\x03q\xac..\x8d%\xc0,v245":"\xfb~\xa6..$1g,v312"
+15:59:37.672322 version@stat F·[4] S·18KiB[18KiB] Sc·[1.00]
+15:59:37.679312 db@janitor F·6 G·0
+15:59:37.679423 db@open done T·17.47163ms
+15:59:37.679606 table@compaction L0·4 -> L1·0 S·18KiB Q·417
+15:59:37.684943 table@build created L1@14 N·266 S·15KiB "\x03q\xac..\x8d%\xc0,v245":"\xfb~\xa6..$1g,v312"
+15:59:37.685026 version@stat F·[0 1] S·15KiB[0B 15KiB] Sc·[0.00 0.00]
+15:59:37.693265 table@compaction committed F-3 S-2KiB Ke·0 D·147 T·13.12087ms
+15:59:37.693483 table@remove removed @11
+15:59:37.693608 table@remove removed @8
+15:59:37.693702 table@remove removed @5
+15:59:37.693793 table@remove removed @2
+=============== Sep 22, 2017 (CEST) ===============
+16:00:03.154309 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:00:03.154652 version@stat F·[0 1] S·15KiB[0B 15KiB] Sc·[0.00 0.00]
+16:00:03.154698 db@open opening
+16:00:03.154826 journal@recovery F·1
+16:00:03.156377 journal@recovery recovering @12
+16:00:03.162889 memdb@flush created L0@15 N·2 S·243B "Blo..ion,v418":"Las..der,v419"
+16:00:03.164565 version@stat F·[1 1] S·15KiB[243B 15KiB] Sc·[0.25 0.00]
+16:00:03.173995 db@janitor F·4 G·0
+16:00:03.174038 db@open done T·19.307599ms
+16:01:47.638675 db@close closing
+16:01:47.638869 db@close done T·191.215µs

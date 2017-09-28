@@ -1,0 +1,17 @@
+INFO [09-22|15:59:37] Starting peer-to-peer node               instance=Geth/00/v1.7.0-stable-6c6c7b2a/linux-amd64/go1.9
+INFO [09-22|15:59:37] Allocated cache and file handles         database=/home/dev/dev/web_dev/eth-utils/test/bc/data/00/geth/chaindata cache=128 handles=1024
+INFO [09-22|15:59:37] Initialised chain configuration          config="{ChainID: 42 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Engine: unknown}"
+INFO [09-22|15:59:37] Disk storage enabled for ethash caches   dir=/home/dev/dev/web_dev/eth-utils/test/bc/data/00/geth/ethash count=3
+INFO [09-22|15:59:37] Disk storage enabled for ethash DAGs     dir=/home/dev/.ethash                                           count=2
+INFO [09-22|15:59:37] Initialising Ethereum protocol           versions="[63 62]" network=42
+INFO [09-22|15:59:37] Loaded most recent local header          number=36 hash=02debc…0ddaa9 td=4751680
+INFO [09-22|15:59:37] Loaded most recent local full block      number=36 hash=02debc…0ddaa9 td=4751680
+INFO [09-22|15:59:37] Loaded most recent local fast block      number=36 hash=02debc…0ddaa9 td=4751680
+INFO [09-22|15:59:37] Loaded local transaction journal         transactions=1 dropped=1
+INFO [09-22|15:59:37] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [09-22|15:59:37] Blockchain not empty, fast sync disabled 
+INFO [09-22|15:59:37] Starting P2P networking 
+INFO [09-22|15:59:37] RLPx listener up                         self="enode://2519881e9754dbe54276ad544ae87d85476b9b637134cb8eab6ad09d2e9954d746a1cab1bce0b7beae645587961e18831497c539c30a18123e36a433c752ee4d@[::]:30300?discport=0"
+INFO [09-22|15:59:37] IPC endpoint opened: /home/dev/dev/web_dev/eth-utils/test/bc/data/00/geth.ipc 
+INFO [09-22|15:59:37] HTTP endpoint opened: http://127.0.0.1:8500 
+INFO [09-22|15:59:38] Unlocked account                         address=0x404BF8694E7D0CE475550B56B3e45EB1CeCfeCdb

@@ -1,0 +1,43 @@
+=============== Sep 22, 2017 (CEST) ===============
+16:43:53.567943 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:43:53.576249 db@open opening
+16:43:53.576814 version@stat F·[] S·0B[] Sc·[]
+16:43:53.580119 db@janitor F·2 G·0
+16:43:53.580164 db@open done T·3.867352ms
+=============== Sep 22, 2017 (CEST) ===============
+16:43:53.638296 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:43:53.638425 version@stat F·[] S·0B[] Sc·[]
+16:43:53.638443 db@open opening
+16:43:53.638498 journal@recovery F·1
+16:43:53.639169 journal@recovery recovering @1
+16:43:53.642844 memdb@flush created L0@2 N·9 S·552B "H\xe9\x91..b\xff:,v3":"r\x00\x00..b\xff:,v5"
+16:43:53.643679 version@stat F·[1] S·552B[552B] Sc·[0.25]
+16:43:53.650089 db@janitor F·3 G·0
+16:43:53.650134 db@open done T·11.671906ms
+=============== Sep 22, 2017 (CEST) ===============
+16:44:02.787059 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:44:02.787371 version@stat F·[1] S·552B[552B] Sc·[0.25]
+16:44:02.787401 db@open opening
+16:44:02.787523 journal@recovery F·1
+16:44:02.793037 journal@recovery recovering @3
+16:44:02.803614 memdb@flush created L0@5 N·3 S·290B "Blo..ion,v11":"dbU..ata,v12"
+16:44:02.828397 version@stat F·[2] S·842B[842B] Sc·[0.50]
+16:44:02.837168 db@janitor F·4 G·0
+16:44:02.837238 db@open done T·49.782504ms
+=============== Sep 22, 2017 (CEST) ===============
+16:47:00.929882 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:47:00.930141 version@stat F·[2] S·842B[842B] Sc·[0.50]
+16:47:00.930168 db@open opening
+16:47:00.930276 journal@recovery F·1
+16:47:00.932074 journal@recovery recovering @6
+16:47:00.940160 memdb@flush created L0@8 N·2 S·243B "Blo..ion,v15":"Las..der,v16"
+16:47:00.941532 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+16:47:00.951473 db@janitor F·5 G·0
+16:47:00.951583 db@open done T·21.385226ms
+16:51:19.430397 table@compaction L0·3 -> L1·0 S·1KiB Q·372
+16:51:19.441753 table@build created L1@11 N·11 S·617B "Blo..ion,v15":"r\x00\x00..b\xff:,v5"
+16:51:19.441871 version@stat F·[0 1] S·617B[0B 617B] Sc·[0.00 0.00]
+16:51:19.447337 table@compaction committed F-2 S-468B Ke·0 D·3 T·12.519586ms
+16:51:19.448053 table@remove removed @8
+16:51:19.448732 table@remove removed @5
+16:51:19.448827 table@remove removed @2

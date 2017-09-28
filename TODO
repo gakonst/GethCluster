@@ -1,0 +1,11 @@
+Make totally portable, push 1 button make it work
+
+1 -> genesis json init
+2 -> geth up -> create account if none exist
+3 -> link nodes as static-nodes.json to each folder
+
+Connect via RPC and check! 
+Next step -> do it with ethstats and carsenk block explorer for more fancy results
++ integrate with contract calls.
+
+

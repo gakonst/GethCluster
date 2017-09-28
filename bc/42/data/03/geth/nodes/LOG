@@ -1,0 +1,6 @@
+=============== Sep 22, 2017 (CEST) ===============
+16:44:00.470129 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:44:00.480322 db@open opening
+16:44:00.482703 version@stat F·[] S·0B[] Sc·[]
+16:44:00.488829 db@janitor F·2 G·0
+16:44:00.488911 db@open done T·8.514242ms

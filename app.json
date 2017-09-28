@@ -1,0 +1,78 @@
+[
+  {
+    "name"        : "gak-0",
+    "cwd"         : ".",
+    "script"      : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"    : false,
+    "watch"       : false,
+    "exec_interpreter"  : "node",
+    "exec_mode"     : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"    : "production",
+      "RPC_HOST"    : "localhost",
+      "RPC_PORT"    : "8545",
+      "INSTANCE_NAME"   : "gak-0",
+      "WS_SERVER"     : "http://localhost:3000",
+      "WS_SECRET"     : "honda",
+    }
+  },
+  {
+    "name"        : "gak-1",
+    "cwd"         : ".",
+    "script"      : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"    : false,
+    "watch"       : false,
+    "exec_interpreter"  : "node",
+    "exec_mode"     : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"    : "production",
+      "RPC_HOST"    : "localhost",
+      "RPC_PORT"    : "8546",
+      "INSTANCE_NAME"   : "gak-1",
+      "WS_SERVER"     : "http://localhost:3000",
+      "WS_SECRET"     : "honda",
+    }
+  },
+  {
+    "name"        : "gak-2",
+    "cwd"         : ".",
+    "script"      : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"    : false,
+    "watch"       : false,
+    "exec_interpreter"  : "node",
+    "exec_mode"     : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"    : "production",
+      "RPC_HOST"    : "localhost",
+      "RPC_PORT"    : "8547",
+      "INSTANCE_NAME"   : "gak-2",
+      "WS_SERVER"     : "http://localhost:3000",
+      "WS_SECRET"     : "honda",
+    }
+  },
+  {
+    "name"        : "gak-3",
+    "cwd"         : ".",
+    "script"      : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"    : false,
+    "watch"       : false,
+    "exec_interpreter"  : "node",
+    "exec_mode"     : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"    : "production",
+      "RPC_HOST"    : "localhost",
+      "RPC_PORT"    : "8548",
+      "INSTANCE_NAME"   : "gak-3",
+      "WS_SERVER"     : "http://localhost:3000",
+      "WS_SECRET"     : "honda",
+    }
+  },
+]
