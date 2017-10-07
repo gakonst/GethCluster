@@ -1,3 +1,5 @@
+DISCLAIMER: Updated version of [ethersphere/eth-utils](https://github.com/ethersphere/eth-utils) for launching private chain geth node clusters for testing purposes.
+
 ## eth-utils
 
 ethereum utilities, dev tools, scripts, etc
